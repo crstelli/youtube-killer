@@ -1,10 +1,9 @@
 {
-  "name": "Youtube Distraction Killer",
+  "name": "YouTube Focus",
   "description": "A Google Chrome extension to limit YouTube use and avoid distraction.",
   "version": "1.0",
   "manifest_version": 3,
   "action": {
-    "default_popup": "popup.html",
     "default_icon": "logo.png"
   },
   "content_scripts": [
