@@ -1,6 +1,6 @@
 const observer = new MutationObserver(() => {
   // Create an observer to observe the DOM changes.
-  console.log("DOM Changed.");
+  document.querySelectorAll("img").forEach((el) => (el.style.visibility = "hidden"));
 });
 
 observer.observe(document.body, {
