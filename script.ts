@@ -2,7 +2,16 @@ const SELECTORS = [
   "ytd-rich-item-renderer", // Video element in the homepage.
   "ytd-rich-shelf-renderer", // Shorts container in the homepage.
   "ytd-feed-filter-chip-bar-renderer", // Chips tag in the homepage.
+  "ytd-search-header-renderer", // Search headers.
+
   "ytd-mini-guide-renderer", // Sidebar in the homepage.
+  "ytd-guide-renderer", // Sidebar
+
+  "ytd-shorts", // Shorts
+  "grid-shelf-view-model", // Shorts in search.
+
+  "#secondary", // Releated videos.
+  "ytd-comments", // Comments.
 ];
 
 function hideNode(node: HTMLElement) {
