@@ -1,6 +1,16 @@
+const SELECTORS = [
+  "ytd-rich-item-renderer", // Video element in the Homepage.
+  "ytd-rich-shelf-renderer", // Shorts container in the Homepage.
+];
+
+function hideNode(node: HTMLElement) {
+  node.style.display = "none";
+}
+
 const observer = new MutationObserver(() => {
   // Create an observer to observe the DOM changes.
-  document.querySelectorAll("img").forEach((el) => (el.style.visibility = "hidden"));
+  const videoElements = [...document.querySelectorAll(SELECTORS.join(", "))] as HTMLElement[];
+  videoElements.forEach((el) => hideNode(el));
 });
 
 observer.observe(document.body, {
