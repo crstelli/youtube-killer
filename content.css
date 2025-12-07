@@ -1,0 +1,15 @@
+ytd-comments,
+ytd-shorts,
+ytd-rich-item-renderer,
+ytd-rich-shelf-renderer,
+ytd-feed-filter-chip-bar-renderer,
+ytd-search-header-renderer,
+ytd-mini-guide-renderer,
+ytd-guide-renderer,
+grid-shelf-view-model {
+  display: none !important;
+}
+
+#secondary {
+  visibility: hidden;
+}
