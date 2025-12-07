@@ -6,10 +6,15 @@ ytd-feed-filter-chip-bar-renderer,
 ytd-search-header-renderer,
 ytd-mini-guide-renderer,
 ytd-guide-renderer,
+div[role="listbox"],
 grid-shelf-view-model {
   display: none !important;
 }
 
 #secondary {
   visibility: hidden;
+}
+
+img {
+  filter: grayscale(100);
 }
